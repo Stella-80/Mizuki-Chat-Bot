@@ -10,7 +10,7 @@ from google_trans_new import google_translator
 translator = google_translator()
 
 BOT_TOKEN = Config.BOT_TOKEN
-BOT_ID = Config.BOT_ID
+BOT_ID = 1788824202
 
 bot = Client("MizukiChat", bot_token=BOT_TOKEN, api_id=6,
              api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e")
